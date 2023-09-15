@@ -1,0 +1,49 @@
+.img-circle{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.image{
+    position: relative;
+}
+
+.cover-icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    right: 30%;
+    top:63%
+    
+}
+
+.cancel-icon
+{
+    z-index: 9999;
+    position: absolute;
+    bottom: 140px;
+    right: 90px;
+}
+#togglePassword{
+    position: absolute;
+    left: 325px;
+    top: 9px;
+    z-index: 999;
+    
+}
+.fa-eye {
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .fa-eye.active {
+    opacity: 1;
+  }
+
+/* .field .hideinputfile input[type="file"]
+{
+    display: none;
+} */

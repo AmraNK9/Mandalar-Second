@@ -1,0 +1,38 @@
+.navbar {
+    background: linear-gradient(to right, #e72c83, #8e2de7);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .navbar-brand:hover,
+  .nav-link:hover {
+    color: #fff;
+  }
+
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .navbar-logo span:first-child {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  .navbar-logo span:not(:first-child) {
+    font-weight: 700;
+  }
+
+  .profile-avatar {
+    width: 50px;
+  }

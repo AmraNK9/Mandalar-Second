@@ -1,0 +1,110 @@
+.custom-card {
+    height: 80px;
+}
+
+.flitter-row .col-sm-4 {
+    padding: 5px;
+}
+
+/* Style for a disabled select element */
+.custom-disabled-select {
+    background-color: #f8f9fa; /* Background color */
+    border: 1px solid #ced4da; /* Border color */
+    color: #6c757d; /* Text color */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+    pointer-events: none; /* Disable pointer events */
+    opacity: 0.6; /* Reduce opacity to indicate it's disabled */
+  }
+  
+  /* Style for the options in a disabled select element */
+  .custom-disabled-select option {
+    background-color: #f8f9fa; /* Background color */
+    color: #6c757d; /* Text color */
+  }
+  
+  /* Style for the arrow icon in the select */
+  .custom-disabled-select::after {
+    border-top-color: #6c757d; /* Arrow color */
+  }
+  
+/* Customize the slider background color */
+
+.noUi-target .noUi-connect {
+    background-color: #4e9c84;
+}
+
+
+/* Customize the slider handle color */
+
+
+/* .noUi-target .noUi-handle {
+  } */
+
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #4e9c84;
+    box-shadow: 0px 0px 2px 2px #5d8277;
+    border: #0f0f0f;
+    /* Replace "red" with the desired color */
+}
+
+
+/* Reset default styles for select box */
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    width: 200px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Style the arrow icon */
+
+.custom-select::after {
+    content: "\f0d7";
+    /* Font Awesome arrow-down icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+
+/* Add a subtle transition effect */
+
+.custom-select:hover,
+.custom-select:focus {
+    border-color: #aaa;
+}
+
+
+/* Optional: Style the dropdown options */
+
+.custom-select option {
+    padding: 10px;
+}
+
+.sm-show {
+    display: none;
+}
+
+@media (max-width: 570px) {
+    .sm-hide {
+        display: none;
+    }
+    .sm-show {
+        display: block;
+    }
+}

@@ -1,0 +1,73 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content;
+	height: 55px;
+	background-color: transparent;
+	box-shadow: none;
+}
+.profile-on-card {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0px 3px 4px #999
+}
+
+.nav-item {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.nav-item.active {
+	border-bottom: 3px solid #777;
+}
+
+.swiper-container {
+	margin-top: 50px;
+	height: 100vh;
+}
+
+.swiper-slide {
+	display: flex;
+}
+
+.tab-content {
+	flex: 1;
+	padding: 20px;
+}
+
+.flitter-tab {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.usersearchimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* position: absolute;
+    bottom:-100px;
+    border: 10px solid rgb(255, 255, 255); */
+}
+.pointer{
+	transition: 0.2s ease-in-out;
+	
+}
+
+.pointer:hover{
+	cursor: pointer;
+	transform: scale(1.01);
+	background-color: rgb(211, 210, 210);
+}

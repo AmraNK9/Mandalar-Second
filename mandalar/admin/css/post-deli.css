@@ -1,0 +1,7 @@
+.post-table{
+    height: 430px;
+    overflow: scroll;
+}
+.block{
+    display:none;
+}

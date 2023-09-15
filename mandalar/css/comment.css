@@ -1,0 +1,86 @@
+.comment-section {
+    margin-top: 20px;
+    background-color: #627e8b2e;
+    padding:15px ;
+    border-radius: 15px;
+  }
+  
+  .comment {
+    /* margin-bottom: 20px; */
+    width: 800px;
+  }
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-picture-comment {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #71B09A;
+  }
+
+  .comment-container{
+    /* padding-right:8px; */
+  }
+  
+  .comment-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .comment-author .comment-date {
+    color: #757474;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  
+  .comment-content {
+    /* margin-bottom: 10px; */
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50vw;
+  }
+  
+  .comment-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+  }
+  
+  .comment-actions button {
+    font-size: 14px;
+    color: #365899;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+  }
+  
+  .replies {
+    margin-left: 46px;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form button[type="submit"] {
+    margin-bottom: 10px;
+  }
+  

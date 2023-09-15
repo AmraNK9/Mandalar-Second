@@ -1,0 +1,61 @@
+/* Css for create_delivery */
+.deli-profile-img{
+    border: 2px solid #4e9c81;
+    border-radius: 7px;
+    width:110px;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.deli-profile-img img{
+    width:100%;
+    height:100%;
+    
+    border-radius: 5px;
+}
+.nrc_img{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nrc_img_border{
+    border: 3px solid #4e9c81;
+    border-radius: 7px;
+    width:250px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.pre_img{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.nrc_img img{
+    width:100%;
+    height:100%;
+    
+    border-radius: 5px;
+}
+.nrc_img_but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid #4e9c81;
+    background: #4e9c81;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+    opacity: 0.87;
+    cursor: pointer;
+}
+.nrc_img_but:hover{
+    opacity:1;
+}
